@@ -1,0 +1,10 @@
+<div class="row text-center">
+    <h1>Broadcast message for users</h1>
+    <h2>Enter text below and click " send ." a modal window will appear for all persons being on the application</h2>
+    <form>
+        <p> :</p>
+        <p class="text-right">{{name}}</p>
+        <input class="form-control" type="text"  id="broadcast-message" type="text" placeholder="message" ng-model="message"/>
+        <button class="btn btn-primary" ng-click="send()" ng-disabled="!message">Send</button>
+    </form>
+</div>
