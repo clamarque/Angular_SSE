@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+strong{
+    color: #1abc9c ;
+    font-weight: normal;
+}
+.container{
+    margin-top: 150px !important;
+}
+.navbar-brand{
+    height: inherit !important;
+}
+.navbar-brand > img {
+    width: 60px;
+}
+.navbar-default{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar-default a {
+    color: #1abc9c !important;
+}
+.navbar-default a:hover{
+    color: #009688 !important;
+}
+.icon-bar{
+    background-color: #1abc9c !important;
+}
+.navbar-right {
+    margin-top: 20px;
+}
+.row {
+    margin: 0;
+}
+.row:nth-child(2), .row.row:nth-child(3){
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+hr{
+    border-bottom: 3px solid #888;
+    width: 90px;
+}
+.toast-top-right {
+    top: 70px !important;
+}
+#broadcast-message {
+    margin-bottom: 20px;
+}
+.btn{
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+    color: #FFF; 
+    border-radius: 2px;
+}
+.btn:hover{
+    background: #FFF;
+    color: #009688;
+}
+#toast-container>:hover{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.toast-success{
+    background: #1abc9c;
+}
+.toast-title{
+    font-weight: normal;
+}
+.toast-close-button {
+    font-weight: normal;
+    opacity: inherit;
+}
+.img-responsive{
+    display: initial;
+}
+a{
+    color: #1abc9c;
+}
+a:hover{
+    color: #009688;
+}
