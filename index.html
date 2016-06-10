@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SSE Angular</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/toaster.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-app="my-app">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6"
+                    aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                     </button>
+                <a class="navbar-brand" href="#/home"><img src="assets/img/C.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/broadcast" role="button">Broadcast message</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <toaster-container toaster-options="{'time-out': 50000,'close-button': true,'limit':1}"></toaster-container>
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
+
+    <script src="lib/jquery-2.2.4.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/toaster.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="scripts/config.router.js"></script>
+
+    <script src="scripts/broadcast.controller.js"></script>
+
+</body>
+
+
+</html>
