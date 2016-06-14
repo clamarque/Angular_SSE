@@ -13,7 +13,7 @@ angular.module('my-app', ['ngRoute', 'toaster'])
                     console.log('local said: ' + data)
                 }, 20000)
                 console.log('server said: ' + e.data)
-                if (e.data != localStorage.getItem('message')) {
+                if (e.data != localStorage.getItem('message') && e.data != '') {
                     toaster.pop('success','Message:' , e.data, 'trustedHtml');
                 }
             })
