@@ -15,6 +15,12 @@ Download redis for Windows [here](https://github.com/rgl/redis/downloads)
 
 Start `redis-server` and lauch application with localhost (wamp, xamp, etc.)
 
+## Stack
+* Angular JS
+* Predis
+* Server Redis
+* Server Sent Event PHP
+
 ##Tutorial
 
 you can see a good tutorial of redis [here](https://scotch.io/tutorials/getting-started-with-redis-in-php)
