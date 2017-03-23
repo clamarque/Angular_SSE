@@ -5,7 +5,7 @@
 </p>
 <p>When we have several clients, one must be able to send messages to everyone in one go. In our case , admin form sends a Message to the server. The server (Redis) receives and broadcasts the message to the other connected clients B and A.</p>
 
-##Quick start
+## Quick start
 
 Download redis for Windows [here](https://github.com/rgl/redis/downloads)
 
@@ -21,6 +21,6 @@ Start `redis-server` and lauch application with localhost (wamp, xamp, etc.)
 * Server Redis
 * Server Sent Event PHP
 
-##Tutorial
+## Tutorial
 
 you can see a good tutorial of redis [here](https://scotch.io/tutorials/getting-started-with-redis-in-php)
